@@ -28,12 +28,15 @@ do
 {
 cout << "gimme a number, can't be bigger than 30" << endl;
 cin >> sqr;
+if (sqr == 0)
+{
+  break;
 }
-while (sqr != 0 && sqr < 1 || sqr > 30 );
 
 cout << "gimme a shape" << endl;
 cin >> trShape;
-
+}
+while (sqr != 0 && sqr < 1 || sqr > 30 );
 
 
 return 0;
